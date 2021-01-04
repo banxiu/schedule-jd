@@ -17,8 +17,7 @@
 
 const [cookie, serverSecret] = process.argv.slice(2);
 
-var Key = cookie; //单引号内自行填写您抓取的Cookie
-
+var Key = '__jd_ref_cls=JDReact_StartReactModule; __jda=122270672.1607605763606756713637.1607605763.1609244065.1609728804.5; __jdb=122270672.4.1607605763606756713637|5.1609728804; __jdc=122270672; mba_muid=1607605763606756713637; mba_sid=16097288048307009675091480391.4; TrackerID=d9tGiSIIY2EopSF1W3MMoVNStlh3I_44CTzVKN0dpjL2aDlxO_nUVWCL9StbMK067JN8dsPmuuVuetFHOluxk2NUPR86L1zk3HI8bepud-gTa6W6mOCXxXmfugglTFMWHynpQRski7_ksVa0sbtrUg; pt_key=AAJf8oM6ADCz-gEJ20DtkzgjCsvphlHcyR3cDFsCwwg5yXWp1u4T5HdTzJx5-U3ACNhNN3B5zmE; pt_pin=jd_48293ea138dd2; pt_token=r22ib7wx; pwdt_id=jd_48293ea138dd2; sfstoken=tk01mc5a31c61a8sMyszKzIvK1lKk94W9/kryeK6SAd4rQBXUgEhgT2vwm1HVNsOFHBRwnuzW+unuw8VZ1E8Dc8BIRTe; shshshfpa=227b7758-aff8-93ac-0800-69a394d5ca70-1607605768; shshshfpb=th5QsWcKjdhTmkQ%2F8hGCR%20g%3D%3D; whwswswws=; jcap_dvzw_fp=QxG1zjOXaa6uV70OJafI4qtTJrIpNLGqy9cTK4WT2trysxyQ8RjcmC7n7Q2ffMJuhECABQ==; 3AB9D23F7A4B3C9B=F5DRGVKBYNME4BGGCVDFVP62EBVKFIGHJXCGY3KGNAYCMJE7BDNU24ELCGCMTAXU2VOONRPREB4PDYWJU3ZKD3EBCM; shshshfp=cf25547c05938aadb205f5fd4226e076; shshshsID=c7ae552ca899f151ae43cd426cb2ab05_1_1609728812687; mobilev=html5; sk_history=13966992968%2C; deviceName=Safari; deviceOS=ios; deviceOSVersion=12.2; deviceVersion=604.1; equipmentId=F5DRGVKBYNME4BGGCVDFVP62EBVKFIGHJXCGY3KGNAYCMJE7BDNU24ELCGCMTAXU2VOONRPREB4PDYWJU3ZKD3EBCM; fingerprint=2b6e04cdf60dc489bccdff9e7d31d8b7; __wga=1609238050807.1609238050807.1609216195287.1609216195287.1.2; cid=9; retina=1; warehistory="13966992968,"; sc_width=375; visitkey=50961070983504010; webp=0; __jdv=122270672%7Cbaidu%7C-%7Corganic%7Cnot%20set%7C1609216175105';
 var DualKey = ''; //如需双账号签到,此处单引号内填写抓取的"账号2"Cookie, 否则请勿填写
 
 var LogDetails = false; //是否开启响应日志, true则开启
